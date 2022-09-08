@@ -29,7 +29,7 @@ class DebianConfiguration(object):
     ]
 
     DEFAULT_CONTEXT = {
-        "compat": 11,
+        "compat": 9,
     }
 
     def __init__(self, rootdir):
